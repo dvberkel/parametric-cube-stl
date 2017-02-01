@@ -1,7 +1,5 @@
-var doT = require('dot');
+var dots = require('dot').process({ path: './templates' });
 
-var template = doT.template('Hello, {{= it.subject }}!');
-
-var result = template({ subject: 'World' });
+var result = dots.hello({ subject: 'World' });
 
 console.log(result);
