@@ -10,4 +10,12 @@ describe('doT', function(){
 
         assert(result, 'Hello, World!');
     });
+
+    it('should interpolate templates from template file', function(){
+        var dots = doT.process({ path: './templates/' });
+
+        var result = dots.hello({ subject: 'World' });
+
+        assert(result, 'Hello, World!');
+    });
 });
