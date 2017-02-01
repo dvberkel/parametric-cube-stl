@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dvberkel/parametric-cube-stl/issues"
   },
-  "homepage": "https://github.com/dvberkel/parametric-cube-stl#readme"
+  "homepage": "https://github.com/dvberkel/parametric-cube-stl#readme",
+  "dependencies": {
+    "dot": "^1.1.1"
+  }
 }
