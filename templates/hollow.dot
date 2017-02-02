@@ -1,0 +1,194 @@
+solid cube
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.b }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.d }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.b }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loo
+      vertex  {{= it.d }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.d }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.b }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.b }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.d }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.b }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.b }} {{= it.d }} {{= it.b }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.b }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.b }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.d }}
+      vertex  {{= it.d }} {{= it.b }} {{= it.d }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.d }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.b }} {{= it.d }}
+      vertex  {{= it.b }} {{= it.d }} {{= it.d }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.a }} 0.000000e+00 0.000000e+00
+      vertex  {{= it.a }} {{= it.a }} 0.000000e+00
+      vertex  {{= it.a }} 0.000000e+00 {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.a }} {{= it.a }} 0.000000e+00
+      vertex  {{= it.a }} {{= it.a }} {{= it.a }}
+      vertex  {{= it.a }} 0.000000e+00 {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 0.000000e+00 0.000000e+00
+      vertex  0.000000e+00 0.000000e+00 {{= it.a }}
+      vertex  0.000000e+00 {{= it.a }} 0.000000e+00
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 0.000000e+00 {{= it.a }}
+      vertex  0.000000e+00 {{= it.a }} {{= it.a }}
+      vertex  0.000000e+00 {{= it.a }} 0.000000e+00
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 {{= it.a }} 0.000000e+00
+      vertex  0.000000e+00 {{= it.a }} {{= it.a }}
+      vertex  {{= it.a }} {{= it.a }} 0.000000e+00
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.a }} {{= it.a }} 0.000000e+00
+      vertex  0.000000e+00 {{= it.a }} {{= it.a }}
+      vertex  {{= it.a }} {{= it.a }} {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 0.000000e+00 0.000000e+00
+      vertex  {{= it.a }} 0.000000e+00 0.000000e+00
+      vertex  0.000000e+00 0.000000e+00 {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.a }} 0.000000e+00 0.000000e+00
+      vertex  {{= it.a }} 0.000000e+00 {{= it.a }}
+      vertex  0.000000e+00 0.000000e+00 {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 0.000000e+00 {{= it.a }}
+      vertex  {{= it.a }} 0.000000e+00 {{= it.a }}
+      vertex  0.000000e+00 {{= it.a }} {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  {{= it.a }} 0.000000e+00 {{= it.a }}
+      vertex  {{= it.a }} {{= it.a }} {{= it.a }}
+      vertex  0.000000e+00 {{= it.a }} {{= it.a }}
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 0.000000e+00 0.000000e+00
+      vertex  0.000000e+00 {{= it.a }} 0.000000e+00
+      vertex  {{= it.a }} 0.000000e+00 0.000000e+00
+    endloop
+  endfacet
+
+  facet normal 0.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex  0.000000e+00 {{= it.a }} 0.000000e+00
+      vertex  {{= it.a }} {{= it.a }} 0.000000e+00
+      vertex  {{= it.a }} 0.000000e+00 0.000000e+00
+    endloop
+  endfacet
+
+endsolid cube
