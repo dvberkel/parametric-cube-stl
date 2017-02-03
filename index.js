@@ -19,16 +19,34 @@ case 4:
         throw new Error('b should be smaller than a');
     }
     break;
+case 5:
+    console.log('windowed');
+    figure = 'windowed';
+    units.a = parseInt(process.argv[2]);
+    units.b = parseInt(process.argv[3]);
+    units.c = parseInt(process.argv[4]);
+    if (units.b >= units.a) {
+        throw new Error('b should be smaller than a');
+    }
+    if (units.c >= units.a) {
+        throw new Error('c should be smaller than a');
+    }
+    if (units.c >= units.b) {
+        throw new Error('c should be smaller than b');
+    }
+    break;
 default:
     figure = 'solid';
-    data.a = 1;
+    units.a = 1;
     break;
 }
 
 var data = {
     a: toScientificNotation(units.a),
     b: toScientificNotation(units.b),
-    d: toScientificNotation(units.a - units.b)
+    c: toScientificNotation(units.c),
+    d: toScientificNotation(units.a - units.b),
+    e: toScientificNotation(units.a - units.c)
 };
 
 var result = cube[figure](data);
