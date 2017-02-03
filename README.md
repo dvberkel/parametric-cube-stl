@@ -1,6 +1,9 @@
 # Parametric Cube in STL
 A repository to generate a family of open cubes in STL
 
+## Usage
+Call `index.js` with eiter 1, 2 or 3 parameters
+
 ## STL
 [Stereolitography][stl] is a
 
