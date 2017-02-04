@@ -4,6 +4,7 @@
   "description": "Generate family of cubes in STL",
   "main": "index.js",
   "scripts": {
+    "generate": "dottojs -s templates -d lib",
     "test": "mocha"
   },
   "repository": {

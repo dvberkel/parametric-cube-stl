@@ -1,6 +1,6 @@
 var doT = require('dot');
-
 var assert = require('chai').assert;
+var hello = require('../lib/hello');
 
 describe('doT', function(){
     it('should interpolate templates', function(){
@@ -12,9 +12,7 @@ describe('doT', function(){
     });
 
     it('should interpolate templates from template file', function(){
-        var dots = doT.process({ path: './templates/' });
-
-        var result = dots.hello({ subject: 'World' });
+        var result = hello({ subject: 'World' });
 
         assert(result, 'Hello, World!');
     });
