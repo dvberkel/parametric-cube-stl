@@ -53,13 +53,16 @@ default:
 }
 
 var data = {
-    a: toScientificNotation(units.a),
-    b: toScientificNotation(units.b),
-    c: toScientificNotation(units.c),
-    d: toScientificNotation(units.a - units.b),
-    e: toScientificNotation(units.a - units.c)
+    figure: figure,
+    measure: {
+        a: toScientificNotation(units.a),
+        b: toScientificNotation(units.b),
+        c: toScientificNotation(units.c),
+        d: toScientificNotation(units.a - units.b),
+        e: toScientificNotation(units.a - units.c)
+    }
 };
 
-var result = cube[figure](data);
+var result = cube[data.figure](data.measure);
 
 console.log(result);
