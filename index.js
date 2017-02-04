@@ -1,9 +1,6 @@
 #! /usr/bin/env node
 
-var dot = require('dot');
-dot.templateSettings.strip = false;
-
-var cube = dot.process({ path: './templates' });
+var cube = require('./lib/cube');
 var parse = require('./lib/arguments');
 
 var data = parse(process.argv);
