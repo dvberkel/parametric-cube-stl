@@ -18,6 +18,9 @@ case 4:
     if (units.b >= units.a) {
         throw new Error('b should be smaller than a');
     }
+    if (units.b <= units.a/2) {
+        throw new Error('b should be bigger than a/2');
+    }
     break;
 case 5:
     console.log('windowed');
@@ -28,8 +31,14 @@ case 5:
     if (units.b >= units.a) {
         throw new Error('b should be smaller than a');
     }
+    if (units.b <= units.a/2) {
+        throw new Error('b should be bigger than a/2');
+    }
     if (units.c >= units.a) {
         throw new Error('c should be smaller than a');
+    }
+    if (units.b <= units.a/2) {
+        throw new Error('c should be bigger than a/2');
     }
     if (units.c >= units.b) {
         throw new Error('c should be smaller than b');
