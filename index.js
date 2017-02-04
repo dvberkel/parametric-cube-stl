@@ -1,6 +1,8 @@
 #! /usr/bin/env node
 
 var dot = require('dot');
+dot.templateSettings.strip = false;
+
 var cube = dot.process({ path: './templates' });
 var toScientificNotation = require('./lib/science');
 
